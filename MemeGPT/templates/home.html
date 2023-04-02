@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meme Generator</title>
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <form method="POST" action="/generate_meme" enctype="multipart/form-data">
+        <label for="image">Choose an image:</label>
+        <input type="file" id="image" name="image">
+        <br>
+        <label for="text_top">Enter top text:</label>
+        <input type="text" id="text_top" name="text_top">
+        <br>
+        <label for="text_bottom">Enter bottom text:</label>
+        <input type="text" id="text_bottom" name="text_bottom">
+        <br>
+        <input type="submit" value="Generate Meme">
+    </form>
+</body>
+</html>
